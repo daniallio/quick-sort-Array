@@ -1,0 +1,37 @@
+
+ordina array
+
+numeri=leggi array
+for (star=0 fino numeri.lenght - 1 )
+    {
+        for ( start2 = start + 1 fino a numeri.lenght-1)
+            {
+                if ( numeri[start2] < numeri[star])
+                    {
+                        scambio i 2 valori (salvo il contenuto di numero[start] in una variabile, metto il contenuto di )
+
+
+                    }
+            }
+
+    }
+---------------------------------------------------------
+
+CON WHILE
+
+numeri=leggi array
+start = 0
+   while ( start < numero di celle)
+    {
+        start1 = start + 1
+            while ( start < numero celle)
+            {
+               if (numeri[start] < numeri[star1])
+                    {
+                        scambio valori
+                    }
+             start1 ++       
+            }
+     start ++        
+    }
+---------------------------------------

@@ -1,0 +1,21 @@
+start
+    numeri = leggi array
+    
+   scambiato = vero;
+    while (scambiato == vero)
+    {
+        scambiato = falso
+        index = 0
+        while (index < numero di celle)
+        {
+            if (numeri[index] > numeri[index+1])
+                {
+                scambio valori
+                scambiato = true 
+                }
+                index += 1
+        }
+
+    }
+
+fine
