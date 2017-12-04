@@ -30,8 +30,7 @@ public class BubleSort {
                     }
                  index++;   
                 }
-                
-                
+                               
             }
         
         for (int i = 0; i < numeri.length; i++) {
