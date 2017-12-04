@@ -4,11 +4,13 @@ package ordinaarray;
 
 public class OrdinaArray {
 
+    static double[] v;
     
     public static void main(String[] args) {
-        
-       int[] v = {15,2,20,7,10,2};
-       int temp = 0;
+        v = new double[5];
+                
+        double temp;
+        init(); // metodo che carica numeri casuali su un array
         
         for (int indice = 0; indice < v.length; indice ++) 
         {
@@ -32,6 +34,15 @@ public class OrdinaArray {
                 
             }
         }
+
+     static void init() { // metodo che carica con numeri causali un array
+        
+        for (int i = 0;  i < v.length; i++){
+             v[i] =Math.random();
+            
+        }
+            
+    }
             
         
         
