@@ -7,7 +7,7 @@ public class OrdinaArray {
     
     public static void main(String[] args) {
         
-       int[] v = {15,2,20,7,10};
+       int[] v = {15,2,20,7,10,2};
        int temp = 0;
         
         for (int indice = 0; indice < v.length; indice ++) 
